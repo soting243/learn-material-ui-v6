@@ -204,3 +204,17 @@ Theme checkbox ด้วยการแทนที่ icon และปรั�
 เมื่อย่อหน้าจอไปที่ mobile viewport เราต้องการให้พื้นหลังของ Box นั้นหายไป ดังนั้นเราต้องใช้ media query เข้ามาช่วย ลองเขียน media query ตรงๆ แล้วค่อยขยับไปใช้ theme.breakpoints
 
 [Lesson guide](https://github.com/React-in-Thai/learn-material-ui-v6/commit/e9810ab3a281d8090fa795571f7b7ec429f10fc5), [Docs](https://mui.com/material-ui/customization/breakpoints/), [Solution](https://github.com/React-in-Thai/learn-material-ui-v6/commit/61175ab320648cf2636313eeebdd295284b5d02a)
+
+### L26 - Tailwind CSS integration
+
+เราสามารถใช้ Tailwind CSS ร่วมกับ Material UI ได้ โดยการใช้ preset จาก [MUI Treasury](https://mui-treasury.com/?path=/docs/tailwind-preset--docs) ซึ่งจะทำให้เราสามารถใช้ Material UI theme tokens จาก Tailwind CSS class ได้
+
+Preset จะทำหน้าที่เชื่อมโยงระหว่าง Material UI theme กับ Tailwind CSS class ให้เราสามารถใช้งานร่วมกันได้ง่ายขึ้น เช่น การใช้งาน color, responsive, elevation, shaddow, typography และอื่นๆ
+
+สามารถดูวิธีการใช้งานได้จาก [MUI Treasury - Tailwind Preset](https://mui-treasury.com/?path=/docs/tailwind-preset--docs)
+
+[Lesson guide](https://github.com/React-in-Thai/learn-material-ui-v6/commit/3e437418e7856802e37e8093c7b5ddf3d85e5acd), [MUI Tailwind Preset](https://mui-treasury.com/?path=/docs/tailwind-preset--docs), [Solution](https://github.com/React-in-Thai/learn-material-ui-v6/commit/74edfa1768fa1a6295eb730d7377a24bf733385f)
+
+---
+
+# Congratulations! you've completed the course!
