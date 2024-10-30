@@ -111,6 +111,9 @@ function App() {
           </Button>
         </Stack>
       </Box>
+      <div className="w-fit mx-auto mt-20 border border-secondary-dark rounded p-2 text-sm max-w-lg bg-secondary shadow-lg shadow-secondary/50 text-white dark:text-black">
+        Login today to gain access to the best deals and discounts!
+      </div>
     </AppTheme>
   );
 }
