@@ -19,7 +19,7 @@
 
 ## Lessons
 
-ผลลัพธ์สุดท้ายคือหน้า Login Form ที่ผ่านการ theme แล้ว:
+ผลลัพธ์สุดท้ายคือหน้า Login Form ที่ผ่านการ theme แล้ว ([link to Demo](https://react-in-thai.github.io/learn-material-ui-v6/)):
 
 ![image](https://github.com/user-attachments/assets/d11d844f-f95b-4c0d-92d6-9ddd32215d93)
 
@@ -79,6 +79,8 @@ Browser จะมีการเซ็ต CSS default ที่ไม่เห�
 
 [Lesson guide](https://github.com/React-in-Thai/learn-material-ui-v6/commit/df81c855577e920a4264aa3fb8f9aa08b872c953), [Docs](https://mui.com/material-ui/customization/how-to-customize/#the-sx-prop), [Solution](https://github.com/React-in-Thai/learn-material-ui-v6/commit/5e1cf3df5faad91e64b9e8865945b8adf1b58fc8)
 
+> Tip: why `marginTop` is better than position `fixed` for making the form centered.
+
 ### L7 - Checkbox
 
 **Requirement**: เพิ่ม Remember me checkbox
@@ -95,7 +97,7 @@ Browser จะมีการเซ็ต CSS default ที่ไม่เห�
 
 ต่อมาจะเป็นการนำ icon ทั่วๆไปมาใช้กับ Material UI ใน social login
 
-**Requirement**: สร้าง component GoogleIcon และ FacebookIcon ด้วย svg ที่ให้ และนำไปใช้งานกับ Button เพื่อสร้าง social login buttons
+**Requirement**: สร้าง component [GoogleIcon](https://www.svgrepo.com/show/303108/google-icon-logo.svg) และ [FacebookIcon](https://www.svgrepo.com/show/448224/facebook.svg) ด้วย svg ที่ให้ และนำไปใช้งานกับ Button เพื่อสร้าง social login buttons
 
 [Lesson guide](https://github.com/React-in-Thai/learn-material-ui-v6/commit/bb9764c94a9d7fd1a6804318970e0cb9708d08d7), [Button + icon demo](https://mui.com/material-ui/react-button/#buttons-with-icons-and-label), [SvgIcon docs](https://mui.com/material-ui/icons/#svgicon), [Solution](https://github.com/React-in-Thai/learn-material-ui-v6/commit/c1a15cbc6f165403de4f937b01b407fdf05c48ae)
 
