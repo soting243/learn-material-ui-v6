@@ -15,9 +15,9 @@ import { ColorSchemeSelectIcon } from "./mui-treasury/color-scheme-select-icon";
 function App() {
   return (
     <AppTheme>
-      <Box sx={{ position: "fixed", top: "1rem", right: "1rem" }}>
+      <div className="fixed top-[1rem] right-[1rem]">
         <ColorSchemeSelectIcon />
-      </Box>
+      </div>
       <Box
         sx={(theme) => ({
           padding: "2rem",
