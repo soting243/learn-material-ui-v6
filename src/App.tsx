@@ -111,6 +111,8 @@ function App() {
           </Button>
         </Stack>
       </Box>
+      {/* 3. Add a component using tailwind classes from Material UI theme tokens */}
+      {/* 4. Check out the playground https://mui-treasury.com/?path=/docs/tailwind-preset--docs#playground */}
     </AppTheme>
   );
 }
